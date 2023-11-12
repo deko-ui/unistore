@@ -9,7 +9,7 @@
         "sheet": "deko.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 1,
+        "revision": 2,
         "version": 3
     },
     "storeContent": [
@@ -132,7 +132,86 @@
                     "output": "sdmc:/deko/Sonic-The-Hedgehog-3.cia"
                 }
             ]
+        },
+        {
+            "info": {
+                "title": "Doom (SNES)",
+                "author": "iD Software",
+                "description": "Doom - SNES. A custom Virtual Console",
+                "category": ["snes"],
+                "console": ["3DS"],
+                "icon_index": 3,
+                "sheet_index": 0,
+                "last_updated": "2023-11-11 at 21:20 (UTC+11)",
+                "license": "n/a",
+                "version": "v1.0.0"
+            },
+            "Install": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/Doom.cia",
+                    "output": "sdmc:/Doom.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "sdmc:/Doom.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Doom.cia"
+                }
+            ],
+            "Download .cia": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/deko/"
+                },
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/Doom.cia",
+                    "output": "sdmc:/deko/Doom.cia"
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Excitebike (NES)",
+                "author": "Sega",
+                "description": "Excitebike - NES. A custom Virtual Console",
+                "category": ["nes"],
+                "console": ["3DS"],
+                "icon_index": 4,
+                "sheet_index": 0,
+                "last_updated": "2023-11-11 at 21:22 (UTC+11)",
+                "license": "n/a",
+                "version": "v1.0.0"
+            },
+            "Install": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/Excitebike.cia",
+                    "output": "sdmc:/Excitebike.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "sdmc:/Excitebike.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Excitebike.cia"
+                }
+            ],
+            "Download .cia": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/deko/"
+                },
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/Excitebike.cia",
+                    "output": "sdmc:/deko/Excitebike.cia"
+                }
+            ]
         }
-
     ]
 }
