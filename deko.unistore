@@ -1,0 +1,138 @@
+{
+    "storeInfo": {
+        "title": "Deko-Universe",
+        "author": "By Deko",
+        "description": "Your one stop Virtual Console shop! (There may be some other programs!)",
+        "url": "https://raw.githubusercontent.com/deko-ui/unistore-test/master/deko.unistore",
+        "file": "deko.unistore",
+        "sheetURL": "https://github.com/deko-ui/unistore-test/raw/master/deko.t3x",
+        "sheet": "deko.t3x",
+        "bg_index": 1,
+        "bg_sheet": 0,
+        "revision": 1,
+        "version": 3
+    },
+    "storeContent": [
+        {
+            "info": {
+                "title": "Sonic The Hedgehog (MD)",
+                "author": "Sega",
+                "description": "Sonic The Hedgehog - Megadrive. A custom Virtual Console",
+                "category": ["megadrive"],
+                "console": ["3DS"],
+                "icon_index": 0,
+                "sheet_index": 0,
+                "last_updated": "2023-11-11 at 11:54 (UTC+11)",
+                "license": "n/a",
+                "version": "v1.0.0"
+            },
+            "Install": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore-test/raw/master/resources/Sonic-The-Hedgehog.cia",
+                    "output": "sdmc:/Sonic-The-Hedgehog.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "sdmc:/Sonic-The-Hedgehog.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Sonic-The-Hedgehog.cia"
+                }
+            ],
+            "Download .cia": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/deko/"
+                },
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore-test/raw/master/resources/Sonic-The-Hedgehog.cia",
+                    "output": "sdmc:/deko/Sonic-The-Hedgehog.cia"
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Sonic The Hedgehog 2 (MD)",
+                "author": "Sega",
+                "description": "Sonic The Hedgehog 2 - Megadrive. A custom Virtual Console",
+                "category": ["megadrive"],
+                "console": ["3DS"],
+                "icon_index": 1,
+                "sheet_index": 0,
+                "last_updated": "2023-11-11 at 11:54 (UTC+11)",
+                "license": "n/a",
+                "version": "v1.0.0"
+            },
+            "Install": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore-test/raw/master/resources/Sonic-The-Hedgehog-2.cia",
+                    "output": "sdmc:/Sonic-The-Hedgehog-2.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "sdmc:/Sonic-The-Hedgehog-2.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Sonic-The-Hedgehog-2.cia"
+                }
+            ],
+            "Download .cia": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/deko/"
+                },
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore-test/raw/master/resources/Sonic-The-Hedgehog-2.cia",
+                    "output": "sdmc:/deko/Sonic-The-Hedgehog-2.cia"
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Sonic The Hedgehog 3 (MD)",
+                "author": "Sega",
+                "description": "Sonic The Hedgehog 3 - Megadrive. A custom Virtual Console",
+                "category": ["megadrive"],
+                "console": ["3DS"],
+                "icon_index": 2,
+                "sheet_index": 0,
+                "last_updated": "2023-11-11 at 11:54 (UTC+11)",
+                "license": "n/a",
+                "version": "v1.0.0"
+            },
+            "Install": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore-test/raw/master/resources/Sonic-The-Hedgehog-3.cia",
+                    "output": "sdmc:/Sonic-The-Hedgehog-3.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "sdmc:/Sonic-The-Hedgehog-3.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Sonic-The-Hedgehog-3.cia"
+                }
+            ],
+            "Download .cia": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/deko/"
+                },
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore-test/raw/master/resources/Sonic-The-Hedgehog-3.cia",
+                    "output": "sdmc:/deko/Sonic-The-Hedgehog-3.cia"
+                }
+            ]
+        }
+
+    ]
+}
