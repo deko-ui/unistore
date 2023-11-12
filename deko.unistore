@@ -9,7 +9,7 @@
         "sheet": "deko.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 2,
+        "revision": 3,
         "version": 3
     },
     "storeContent": [
@@ -176,7 +176,7 @@
         {
             "info": {
                 "title": "Excitebike (NES)",
-                "author": "Sega",
+                "author": "Nintendo",
                 "description": "Excitebike - NES. A custom Virtual Console",
                 "category": ["nes"],
                 "console": ["3DS"],
