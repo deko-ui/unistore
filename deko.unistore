@@ -3,9 +3,9 @@
         "title": "Deko-Universe",
         "author": "By Deko",
         "description": "Your one stop Virtual Console shop! (There may be some other programs!)",
-        "url": "https://raw.githubusercontent.com/deko-ui/unistore-test/master/deko.unistore",
+        "url": "https://raw.githubusercontent.com/deko-ui/unistore/master/deko.unistore",
         "file": "deko.unistore",
-        "sheetURL": "https://github.com/deko-ui/unistore-test/raw/master/deko.t3x",
+        "sheetURL": "https://github.com/deko-ui/unistore/raw/master/deko.t3x",
         "sheet": "deko.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
@@ -29,7 +29,7 @@
             "Install": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/deko-ui/unistore-test/raw/master/resources/Sonic-The-Hedgehog.cia",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/Sonic-The-Hedgehog.cia",
                     "output": "sdmc:/Sonic-The-Hedgehog.cia"
                 },
                 {
@@ -48,7 +48,7 @@
                 },
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/deko-ui/unistore-test/raw/master/resources/Sonic-The-Hedgehog.cia",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/Sonic-The-Hedgehog.cia",
                     "output": "sdmc:/deko/Sonic-The-Hedgehog.cia"
                 }
             ]
@@ -69,7 +69,7 @@
             "Install": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/deko-ui/unistore-test/raw/master/resources/Sonic-The-Hedgehog-2.cia",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/Sonic-The-Hedgehog-2.cia",
                     "output": "sdmc:/Sonic-The-Hedgehog-2.cia"
                 },
                 {
@@ -88,7 +88,7 @@
                 },
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/deko-ui/unistore-test/raw/master/resources/Sonic-The-Hedgehog-2.cia",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/Sonic-The-Hedgehog-2.cia",
                     "output": "sdmc:/deko/Sonic-The-Hedgehog-2.cia"
                 }
             ]
@@ -109,7 +109,7 @@
             "Install": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/deko-ui/unistore-test/raw/master/resources/Sonic-The-Hedgehog-3.cia",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/Sonic-The-Hedgehog-3.cia",
                     "output": "sdmc:/Sonic-The-Hedgehog-3.cia"
                 },
                 {
@@ -128,7 +128,7 @@
                 },
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/deko-ui/unistore-test/raw/master/resources/Sonic-The-Hedgehog-3.cia",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/Sonic-The-Hedgehog-3.cia",
                     "output": "sdmc:/deko/Sonic-The-Hedgehog-3.cia"
                 }
             ]
