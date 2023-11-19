@@ -1,0 +1,40 @@
+        {
+            "info": {
+                "title": "Template (cc)",
+                "author": "Nintendo",
+                "description": "Template - cc. A custom Virtual Console",
+                "category": ["cc"],
+                "console": ["3DS"],
+                "icon_index": icid,
+                "sheet_index": 0,
+                "last_updated": "2023-11-19 at 14:12 (UTC+11)",
+                "license": "n/a",
+                "version": "v1.0.0"
+            },
+            "Install": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/Template.cia",
+                    "output": "sdmc:/Template.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "sdmc:/Template.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Template.cia"
+                }
+            ],
+            "Download .cia": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/deko/"
+                },
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/Template.cia",
+                    "output": "sdmc:/deko/Template.cia"
+                }
+            ]
+        },

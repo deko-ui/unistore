@@ -3,13 +3,13 @@
         "title": "Deko-Universe",
         "author": "By Deko",
         "description": "Your one stop Virtual Console shop! (+ more)",
-        "url": "https://raw.githubusercontent.com/deko-ui/unistore/master/deko.unistore",
+        "url": "https://github.com/deko-ui/unistore/raw/master/deko.unistore",
         "file": "deko.unistore",
         "sheetURL": "https://github.com/deko-ui/unistore/raw/master/deko.t3x",
         "sheet": "deko.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 3,
+        "revision": 4,
         "version": 3
     },
     "storeContent": [
@@ -210,6 +210,206 @@
                     "type": "downloadFile",
                     "file": "https://github.com/deko-ui/unistore/raw/master/resources/Excitebike.cia",
                     "output": "sdmc:/deko/Excitebike.cia"
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Tony Hawk's Pro Skater 2 (GBA)",
+                "author": "Activision",
+                "description": "Tony Hawk's Pro Skater 2 - GBA. A custom Virtual Console",
+                "category": ["gba"],
+                "console": ["3DS"],
+                "icon_index": 5,
+                "sheet_index": 0,
+                "last_updated": "2023-11-19 at 14:12 (UTC+11)",
+                "license": "n/a",
+                "version": "v1.0.0"
+            },
+            "Install": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/THPS2.cia",
+                    "output": "sdmc:/THPS2.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "sdmc:/THPS2.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/THPS2.cia"
+                }
+            ],
+            "Download .cia": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/deko/"
+                },
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/THPS2.cia",
+                    "output": "sdmc:/deko/THPS2.cia"
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Tony Hawk's Pro Skater 3 (GBA)",
+                "author": "Activision",
+                "description": "Tony Hawk's Pro Skater 3 - GBA. A custom Virtual Console",
+                "category": ["gba"],
+                "console": ["3DS"],
+                "icon_index": 6,
+                "sheet_index": 0,
+                "last_updated": "2023-11-19 at 14:12 (UTC+11)",
+                "license": "n/a",
+                "version": "v1.0.0"
+            },
+            "Install": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/THPS3.cia",
+                    "output": "sdmc:/THPS3.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "sdmc:/THPS3.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/THPS3.cia"
+                }
+            ],
+            "Download .cia": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/deko/"
+                },
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/THPS3.cia",
+                    "output": "sdmc:/deko/THPS3.cia"
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Tony Hawk's Pro Skater 4 (GBA)",
+                "author": "Activision",
+                "description": "Tony Hawk's Pro Skater 4 - GBA. A custom Virtual Console",
+                "category": ["gba"],
+                "console": ["3DS"],
+                "icon_index": 7,
+                "sheet_index": 0,
+                "last_updated": "2023-11-19 at 14:12 (UTC+11)",
+                "license": "n/a",
+                "version": "v1.0.0"
+            },
+            "Install": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/THPS4.cia",
+                    "output": "sdmc:/THPS4.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "sdmc:/THPS4.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/THPS4.cia"
+                }
+            ],
+            "Download .cia": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/deko/"
+                },
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/THPS4.cia",
+                    "output": "sdmc:/deko/THPS4.cia"
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Mat Hoffman's Pro BMX (GBA)",
+                "author": "Activision",
+                "description": "Mat Hoffman's Pro BMX - GBA. A custom Virtual Console",
+                "category": ["gba"],
+                "console": ["3DS"],
+                "icon_index": 8,
+                "sheet_index": 0,
+                "last_updated": "2023-11-19 at 14:12 (UTC+11)",
+                "license": "n/a",
+                "version": "v1.0.0"
+            },
+            "Install": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/MHPbmx.cia",
+                    "output": "sdmc:/MHPbmx.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "sdmc:/MHPbmx.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/MHPbmx.cia"
+                }
+            ],
+            "Download .cia": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/deko/"
+                },
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/MHPbmx.cia",
+                    "output": "sdmc:/deko/MHPbmx.cia"
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Mat Hoffman's Pro BMX 2 (GBA)",
+                "author": "Activision",
+                "description": "Mat Hoffman's Pro BMX 2 - GBA. A custom Virtual Console",
+                "category": ["gba"],
+                "console": ["3DS"],
+                "icon_index": 9,
+                "sheet_index": 0,
+                "last_updated": "2023-11-19 at 14:12 (UTC+11)",
+                "license": "n/a",
+                "version": "v1.0.0"
+            },
+            "Install": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/MHPbmx2.cia",
+                    "output": "sdmc:/MHPbmx2.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "sdmc:/MHPbmx2.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/MHPbmx2.cia"
+                }
+            ],
+            "Download .cia": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/deko/"
+                },
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/deko-ui/unistore/raw/master/resources/MHPbmx2.cia",
+                    "output": "sdmc:/deko/MHPbmx2.cia"
                 }
             ]
         }
